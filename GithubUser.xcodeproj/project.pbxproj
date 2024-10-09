@@ -30,7 +30,6 @@
 		C499E55C2C6101C000912BD7 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499E55B2C6101C000912BD7 /* AppError.swift */; };
 		C499E55E2C6101F900912BD7 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499E55D2C6101F900912BD7 /* ErrorHandler.swift */; };
 		C499E5612C61056600912BD7 /* BaseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C499E5602C61056600912BD7 /* BaseEndpoint.swift */; };
-		C4F17D792C611676001C85A6 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17D782C611676001C85A6 /* AppNavigator.swift */; };
 		C4F17D7B2C6118FC001C85A6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17D7A2C6118FC001C85A6 /* HomeViewModel.swift */; };
 		C4F17D7F2C611979001C85A6 /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17D7E2C611979001C85A6 /* UserDetailViewModel.swift */; };
 		C4F17D8C2C62614D001C85A6 /* UserEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F17D8B2C62614D001C85A6 /* UserEndPoint.swift */; };
@@ -66,7 +65,6 @@
 		C499E55B2C6101C000912BD7 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		C499E55D2C6101F900912BD7 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		C499E5602C61056600912BD7 /* BaseEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEndpoint.swift; sourceTree = "<group>"; };
-		C4F17D782C611676001C85A6 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
 		C4F17D7A2C6118FC001C85A6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		C4F17D7E2C611979001C85A6 /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
 		C4F17D8B2C62614D001C85A6 /* UserEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEndPoint.swift; sourceTree = "<group>"; };
@@ -127,8 +125,6 @@
 				C46E6C332C6398DA002532CB /* Extensions */,
 				C4F17D902C6290C3001C85A6 /* Views */,
 				C4F17D8D2C626691001C85A6 /* Models */,
-				C4F17D822C611C6D001C85A6 /* Transitions */,
-				C4F17D772C611654001C85A6 /* Navigators */,
 				C499E5522C5F8ECF00912BD7 /* Networking */,
 				C499E5512C5F8EB000912BD7 /* Resources */,
 				C499E5502C5F8E9900912BD7 /* ViewModels */,
@@ -224,21 +220,6 @@
 				C4F17D8B2C62614D001C85A6 /* UserEndPoint.swift */,
 			);
 			path = Endpoints;
-			sourceTree = "<group>";
-		};
-		C4F17D772C611654001C85A6 /* Navigators */ = {
-			isa = PBXGroup;
-			children = (
-				C4F17D782C611676001C85A6 /* AppNavigator.swift */,
-			);
-			path = Navigators;
-			sourceTree = "<group>";
-		};
-		C4F17D822C611C6D001C85A6 /* Transitions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Transitions;
 			sourceTree = "<group>";
 		};
 		C4F17D8D2C626691001C85A6 /* Models */ = {
@@ -387,7 +368,6 @@
 				C4153D3E2C660F9F00B12E39 /* WebViewController.swift in Sources */,
 				C4153D422C6674A900B12E39 /* SearchUser.swift in Sources */,
 				C426650F2C5E811F00F97000 /* AppDelegate.swift in Sources */,
-				C4F17D792C611676001C85A6 /* AppNavigator.swift in Sources */,
 				C42665112C5E811F00F97000 /* SceneDelegate.swift in Sources */,
 				C46E6C3B2C647103002532CB /* UserDetailViewController.swift in Sources */,
 				C499E5612C61056600912BD7 /* BaseEndpoint.swift in Sources */,
