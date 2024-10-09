@@ -83,9 +83,9 @@ extension UserDetailViewController: UITableViewDelegate {
         headerView.addSubview(avatar)
         NSLayoutConstraint.activate([
             avatar.widthAnchor.constraint(equalTo: headerView.widthAnchor),
-            avatar.heightAnchor.constraint(equalTo: avatar.widthAnchor), // Make the height equal to the width (square image)
-            avatar.topAnchor.constraint(equalTo: headerView.topAnchor), // Center the image horizontally
-            avatar.leadingAnchor.constraint(equalTo: headerView.leadingAnchor)  // Center the image vertically
+            avatar.heightAnchor.constraint(equalTo: avatar.widthAnchor),
+            avatar.topAnchor.constraint(equalTo: headerView.topAnchor),
+            avatar.leadingAnchor.constraint(equalTo: headerView.leadingAnchor) 
         ])
         avatar.roundCorners([.layerMinXMaxYCorner, .layerMaxXMaxYCorner], radius: 50)
         avatar.cacheImage(urlString: user.avatar)
